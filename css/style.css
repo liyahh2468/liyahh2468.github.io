@@ -1,9 +1,19 @@
 button{
-  height: 300px;
-  width: 300px;
-  border-radius: 300px;
-  background: pink;
-  color: purple;
-  font-size: 50pt;
-  text-transform: lowercase;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background: black;
+  color: yellow;
+  font-size: 15pt;
+  text-transform: case;
+  font-family: impact;
+}
+button:hover{
+  background:pink;
+  transition: .5s;
+}
+p{
+  font-family: impact;
+  font-size: 20pt;
+  color: gray;
 }

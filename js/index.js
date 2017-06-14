@@ -1,5 +1,5 @@
-function message(){
-  alert('Oh No!');
-  
-  document.getElementById("flash").style.backgroundColor = "white";
+var clicks=0;
+function clickMe(){
+  clicks +=1;
+  document.getElementById("clicks").innerHTML = clicks;
 }
